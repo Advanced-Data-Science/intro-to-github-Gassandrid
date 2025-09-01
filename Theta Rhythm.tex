@@ -1,0 +1,653 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Theta Rhythm - A memory clock},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Theta Rhythm - A memory clock}
+\author{}
+\date{2025-02-03}
+
+\begin{document}
+\maketitle
+
+\emph{study notes for a \href{Artem\%20Kirsanov}{Artem Kirsanov}
+\href{https://youtu.be/5CxSoFK5tOQ?si=xNx2_g403li49K1i}{video}}.
+
+Recently, there have been some significant advancements in decoding the
+hippocampus, and how it is involved in memory. This is a very complex
+structure, and it is not yet fully understood. However, we do know that
+the hippocampus is involved in the formation of new memories, and the
+retrieval of old ones.
+
+More specifically, looking at the brain's internal clock, the
+\textbf{Theta Rhythm} is a very interesting phenomenon. This is a brain
+wave that is present in the hippocampus, and it is associated with
+\href{Memory\%20Formation}{Memory Formation} and retrieval. We believe
+that the theta rhythm is a clock that helps the brain to organize
+memories in time.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Brain Waves}\label{brain-waves}
+
+Let's start by coming to understand what the brains internal waves
+actually are.
+
+\textbf{Brain Waves} were first discovered in the 1920s by a German
+psychiatrist named Hans Berger. He discovered that the brain emits
+electrical signals, and that these signals can be measured using an
+\textbf{Electroencephalogram (EEG)}, essentially some electrodes
+attached to someone's head. This is a device that measures the
+electrical activity of the brain.
+
+What was shown was several different oscillating patterns, which we now
+call \textbf{Brain Waves}. These waves are classified by their
+frequency, and they are associated with different states of
+consciousness.
+
+At this point in history, we know quite a lot about the different kinds
+of brain waves, and the frequencies that they operate at. For example,
+\textbf{Delta Waves} are associated with deep sleep, \textbf{Alpha
+Waves} are associated with relaxation, and \textbf{Beta Waves} are
+associated with alertness.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Pasted image 20250324102549.png}]{/Users/gassandrid/Desktop/Pasted image 20250324102549.png}}
+\caption{Pasted image 20250324102549.png}
+\end{figure}
+
+But for this note, we are interested in the \textbf{Theta Rhythm}. This
+is a wave that operates at a frequency of around 4-8 Hz, and it is
+associated with the hippocampus.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Generation of Theta
+Rhythm}\label{generation-of-theta-rhythm}
+
+The theta rhythm is characteristically described by its wavelength, with
+a frequency between \textbf{4} and \textbf{12} Hz.
+
+It is measured by sticking an electrode inside the hippocampus and
+measure the voltage difference between a point in
+\href{Extracellular\%20Space}{Extracellular Space} and a ground
+electrode ( typically in the base of the skull ).
+
+This voltage arises out of the summation of currents of neurons,
+reflecting synchronous synaptic inputs.
+
+That is, when \textbf{one neuron} sends information to another through
+synapses.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-02-03 at 1.53.13 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-02-03 at 1.53.13 PM.png}}
+\caption{Screenshot 2025-02-03 at 1.53.13 PM.png}
+\end{figure}
+
+In the case where there is a large number of neurons surrounding this
+electrode, and they are constantly sending signals simultaneously, then
+these individual currents \textbf{add up}, leading to the voltage
+becoming strong enough to be sensed by external electrode.
+
+\begin{quote}
+{[}!Warning{]} Note Remember this measurement is finding the
+\textbf{overall activity} sensed by the electrode, and not the behavior
+of any individual neuron. As \href{Artem\%20Kirsanov}{Artem} put it,
+this is like putting a microphone over a stadium, you cant discern
+individual phenomena but rather general group behavior patterns(which
+are still useful).
+\end{quote}
+
+This special rhythm is generated in a special structure, called the
+\href{Medial\%20Septum}{Medial Septum}. This structure contains a large
+amount of something called \href{Pacemaker\%20Neurons}{Pacemaker
+Neurons}, which are known to regularly discharge something between 4 and
+12 times a second.
+
+These special neurons have some special proteins called
+\href{Hyperpolarization\%20Activated\%20Channels}{Hyperpolarization
+Activated Channels}(HCNs), which allow Ions to flow into the cell at a
+regulated time interval, generating this rhythmic pattern.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-03-26 at 12.07.01 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-03-26 at 12.07.01 PM.png}}
+\caption{Screenshot 2025-03-26 at 12.07.01 PM.png}
+\end{figure}
+
+\begin{quote}
+{[}!Important{]} Fun Fact These are the same proteins that your heart
+uses to regulate its beating rhythm.
+\end{quote}
+
+These \href{Pacemaker\%20Neurons}{Pacemaker Neurons} then send their
+connections straight to the \url{Hippocampus}, thus providing the
+rhythmic output and leading to the rise of the theta wave. This causes
+the activity of the Hippocampus to wax and wane, following the rhythm
+that the conductor(\href{Medial\%20Septum}{Medial Septum}) is providing.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{quote}
+{[}!Warning{]} Quick Note again\ldots{} This is quite the
+oversimplification of an otherwise very complex process. As
+\href{Artem\%20Kirsanov}{Artem} mentions, a group of researchers led by
+Romain Goutagny\footnote{Goutagny R, Jackson J, Williams S.
+  Self-generated theta oscillations in the hippocampus. Nat Neurosci.
+  2009 https://pubmed.ncbi.nlm.nih.gov/19881503/} found that under
+certain conditions, the Hippocampus itself can generate theta rhythm,
+indicating that it contains some neuronal machinery sufficient enough
+for the generation of intrinsic rhythm.
+\end{quote}
+
+In this scenario, it would mean that the hippocampus, much like a well
+trained orchestra, can perform coherently even in the absence of its
+conductor.
+
+Goutagny Et al.\footnote{Goutagny R, Jackson J, Williams S.
+  Self-generated theta oscillations in the hippocampus. Nat Neurosci.
+  2009 https://pubmed.ncbi.nlm.nih.gov/19881503/} found that rhythmic
+activity arises due to the interactions between excitatory and
+inhibitory neurons, through a negative feedback loop.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-03-26 at 12.18.34 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-03-26 at 12.18.34 PM.png}}
+\caption{Screenshot 2025-03-26 at 12.18.34 PM.png}
+\end{figure}
+
+\footnote{Hummos A, Nair SS. An integrative model of the intrinsic
+  hippocampal theta rhythm. Lytton WW, editor. PLoS ONE. 2017
+  https://pubmed.ncbi.nlm.nih.gov/28787026/}
+
+It is quite an elegant mechanism, however a tad bit complex for an
+introduction to Theta Rhythm. I will most likely create a note later on
+taking a
+\href{Self-generated\%20theta\%20oscillations\%20in\%20the\%20hippocampus}{deeper
+look at the paper alone}.
+
+Aside from that quick detour, let us assume that for the most part, the
+\href{Medial\%20Septum}{Medial Septum} is responsible for the beat
+generation for the \url{Hippocampus}. Even though the hippocampus does
+have an \textbf{intrinsic oscillator} within, a bulk of the computation
+will come from the \textbf{upstream oscillation} of the medial septum.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-03-26 at 12.29.47 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-03-26 at 12.29.47 PM.png}}
+\caption{Screenshot 2025-03-26 at 12.29.47 PM.png}
+\end{figure}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Functions of the Theta
+Wave}\label{functions-of-the-theta-wave}
+
+Just like any other brain rhythm, Theta is not always present.
+
+Theta Rhythm is observed under some specific physiological states,
+namely periods of locomotion(aka running), exploratory sniffing, and
+various environment related behaviors.o
+
+One example might be when an animal is grooming itself, it is unlikely
+that Theta activity would be present at all, or at the very least, under
+very sparse bursts. You wouldn't note the slow frequency component in
+this case.
+
+But when this animal starts engaging in an activity such as running or
+for the search of food, it's \url{Hippocampus} would light up the
+rhytmic theta wave.
+
+\href{Spacial\%20Navigation}{Spacial Navigation} is closely linked to
+\href{Memory\%20Formation}{Memory Formation}(as they are both functions
+of the Hippocampus), and this makes sense for a lot of creatures. Say
+you are a mouse, and you find a food source by taking a specific route
+to find it. It is evolutionarily beneficial to take special note of a
+route like this so that the mouse can retrieve it next time.
+
+\begin{quote}
+While the specifics are up for discussion,
+\href{Artem\%20Kirsanov}{Artem} seeks to make the argument that the
+central purpose of \textbf{theta rhythm} is to provide a computational
+mechanism to \textbf{construct} and \textbf{retrieve} memory traces.
+\end{quote}
+
+For the purpose of explaining what he means here, let's think of a
+\url{Memory} as a \textbf{temporal} sequence of neuronal patterns
+activating one after another. Each one of these patterns is a
+\textbf{collection} of neuronal assemblies, which together form an
+\textbf{integrated representation} of the world.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-05 at 2.43.48 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-05 at 2.43.48 PM.png}}
+\caption{Screenshot 2025-04-05 at 2.43.48 PM.png}
+\end{figure}
+
+This ``integrated representation'' has the feature of encoding different
+modalities of a given experience.
+
+This could be things like the \textbf{current position}, \textbf{sensory
+cues}, the \textbf{emotional state} at that time, the \textbf{social
+interactions} in that given place/experience\ldots{} The list goes on.
+
+Each of these ``modalities'' has a \textbf{corresponding pattern} of
+brain activity, a ``neural fingerprint'' of sorts that uniquely
+identifies this given information source.
+
+A great example of this is another video made by Artem(which I plan on
+writing a note on, if not done already) about
+\href{Place\%20cells:\%20How\%20your\%20brain\%20creates\%20maps\%20of\%20abstract\%20spaces}{Place
+Cells}, which are neurons that essentially associate certain behavior
+with a given location. Each of these Place Cells has a \textbf{preferred
+location} in which they tend to fire. Bringing all these place cells
+together, we get something of a ``code'' of physical position.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+However, the \url{Hippocampus} has been shown to encode much more than
+just spatial variables, things like \textbf{sound frequencies}, and even
+the \textbf{identities} of certain people(in the case of humans at the
+least).
+
+These all come together to form a modality rich experience that
+represents all of the different sources of information for a given
+episodic memory.
+
+But to form an integrated representation for the external world, the
+brain has the problem of \textbf{unifying} these different modalities
+into a single ``picture''. \textbf{Theta Rhythm} has the purpose of
+ensuring that all these separate components link together to form a
+unified memory.
+
+In addition to the ``assembly'' of a unified memory, another problem
+that the brain has to solve is the arrangement of these instantaneous
+representations into a meaningful \textbf{temporal sequence}, to form a
+meaningful memory which unfolds in time.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-05 at 3.19.03 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-05 at 3.19.03 PM.png}}
+\caption{Screenshot 2025-04-05 at 3.19.03 PM.png}
+\end{figure}
+
+This so-called \textbf{sequence organization}(a one dimensional process)
+is vital for \href{Spacial\%20Navigation}{Spacial Navigation}, as each
+trajectory/path is made up of a sequence of activated place cells. But
+it is also vital for \textbf{episodic memory} in general. Theta Rhythm
+helps in the process of forming these ``chains of representation'',
+ensuring the correct temporal order.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Forming an Integrated
+Representation}\label{forming-an-integrated-representation}
+
+To cement these concepts properly, lets work with an example:
+
+\begin{quote}
+{[}!Example{]} \textgreater{} \textbf{Alice} and \textbf{Bob} are
+childhood friends who have not seen each other in a very long time.
+
+One day, they randomly bump into each other in the bank. But, given that
+both were busy, they thought it best to go and meet up later at their
+\textbf{favorite coffee shop} to catch up with each other.
+
+Suppose they dont have the luxuries we do now ( the internet, phones,
+etc ) to communicate with each other, other than face to face
+interaction. How can they possibly make the meeting at the coffee shop
+happen?
+\end{quote}
+
+\^{}85a4a4
+
+One way is to agree on the place to meet like they did, and then
+occasionally visit it once in a while. There is a small chance that they
+meet each other there by coincidence, where they can finally sit down
+and talk. But we can all agree that this is a sub-par method of ensuring
+contact.
+
+A more intuitive way to us is to \textbf{agree on a time} in advance. If
+they both know that they are meeting each other at \emph{1pm} tomorrow
+at their favorite coffee shop, there is no ambiguity left. In layman
+terms, even if they don't communicate directly, they can use an
+\textbf{external factor}, in the form of time, which they both have
+access to in order to \textbf{coordinate} their arrival.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-06 at 4.16.18 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-06 at 4.16.18 PM.png}}
+\caption{Screenshot 2025-04-06 at 4.16.18 PM.png}
+\end{figure}
+
+\begin{quote}
+{[}!Abstract{]} Note In the ancient times before clocks were around,
+people used the position of the sun for the exact same purpose
+\end{quote}
+
+In the \url{Hippocampus}, the Theta Rhythm, and in particular it's
+\textbf{phase}(between \(0^\circ\) and \(360^\circ\)) is used as this so
+called ``clock''. An \textbf{external agent''}, which all \url{Neuron}s
+can listen to, and coordinate their spiking activity.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-06 at 4.50.54 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-06 at 4.50.54 PM.png}}
+\caption{Screenshot 2025-04-06 at 4.50.54 PM.png}
+\end{figure}
+
+Because, for the brain to ``link'' assemblies together(such as ones
+representing \textbf{where} and \textbf{with whom}), spikes from their
+neurons should arrive at the receiver neuron in a very small time
+window, with a very short interval between each other. That way, theta
+oscillation provides a \textbf{temporal reference} which can be used by
+neurons to adjust the timings of their spikes in order to caryr out
+information transfer more effectively.
+
+The reason why theta rhythm activates during exploratory
+behavior(running, etc), is that spacial behavior needs navigation and
+memory encoding. For this reason, our brain requires that we constantly
+form \textbf{integrated representations} of environments.
+
+Going back to \href{Theta\%20Rhythm\#\%5E85a4a4}{our example}, this
+means that all of a sudden, everyone has a lot of catching up to do with
+their old friends. Therefore, the \textbf{global timing mechanism} is
+used for hundreds of similar people to coordinate their arrivals
+effectively en masse.
+
+\emph{However, this only really represents about half of the purpose of
+theta rhythm, as we will learn}
+
+At this point, these constructed amalgamations of information sources is
+only a stationary snapshot of the external world at some point in time.
+It does not encode the past or future temporal order into the episodic
+memory. It is the \textbf{chaining} of these neuronal assemblies into a
+temporal sequence that of better use to the brain.
+
+\emph{this is like taking a freeze frame of a movie!}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Sequential Organization}\label{sequential-organization}
+
+To achieve this \textbf{chaining of assemblies}, there are two possible
+mechanisms we can use.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The first one are \textbf{externally generated} sequences. they arrise
+  when the incoming information \emph{already} has a sequencial
+  organization.
+\end{enumerate}
+
+\begin{quote}
+{[}!Example{]} suppose you(a mouse) are walking through a corridor with
+a rainbow colored gradient wall. In the beggining its red, middle its
+yetllow, end is blue, etc.
+
+In that case, visual information, which is organized as a succesion of
+changing colors, evokes a chain corresponding representations in the
+brain
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-06 at 7.09.12 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-06 at 7.09.12 PM.png}}
+\caption{Screenshot 2025-04-06 at 7.09.12 PM.png}
+\end{figure}
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  The alternative and much more interesting option is that of the
+  \textbf{internally generated} sequences. This would likely emerge when
+  there are little to no incoming sensory information, and thus it is
+  left up to the brain to organize sequentially
+\end{enumerate}
+
+\begin{quote}
+{[}!Example{]} Imagine if that same mouse has sat to lie down with its
+eyes closed, and is trying to recall the experience of walking through
+that rainbow gradient corridor. In this case, the sequence
+representation has to be generated by the brain itself. Connectivity
+patterns and synaptic strengths between members of the assembly itself.
+Aka, if the activation of the first assembly leads to the second, and so
+on and so fourth.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-06 at 7.20.02 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-06 at 7.20.02 PM.png}}
+\caption{Screenshot 2025-04-06 at 7.20.02 PM.png}
+\end{figure}
+\end{quote}
+
+\^{}4f4e3b
+
+The interesting thing here is that it turns out that \textbf{Theta
+Rhythm} itself is \emph{essential} for the generation
+\href{Theta\%20Rhythm\#\%5E4f4e3b}{the latter type}.
+
+When the Theta Rhythm is abolished in test subjects, it severely affects
+the emergence of this type of sequential activity, which is normally
+observed during planning and memory retrieval.
+
+Let's put this in better terms by returning to the
+\href{Theta\%20Rhythm\#\%5E85a4a4}{cafe example}:
+
+\begin{quote}
+{[}!Example{]} Now lets suppose that all these ``pair encounters''
+between many different \textbf{Alices} and \textbf{Bobs} should happen
+in a \textbf{strict temporal succession}. For this case, lets suppose
+this takes the form of a \emph{couples} therapy.
+
+First, Alice and Bob go at \texttt{10AM}. Then, Claire and Dan go after
+them at \texttt{11AM}, and so fourth.
+\end{quote}
+
+In this case, just like we saw before, \textbf{time serves to coordinate
+arrivals of individuals} within a couple. But, at the same time,
+\textbf{external clock} is used to separate different sessions in time,
+to ensure they happen one after another in a well defined order.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-07 at 9.46.48 AM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-07 at 9.46.48 AM.png}}
+\caption{Screenshot 2025-04-07 at 9.46.48 AM.png}
+\end{figure}
+
+Otherwise, it would be somewhat awkward if \emph{all} the couples showed
+up for their session at the same time.
+
+In the same way, \textbf{Theta Rhythm} provides a mechanism to arrange
+experience into a \textbf{temporal sequence}. And just like in the
+previous case, it is the \textbf{phase} of the wave which serves as the
+\textbf{coordination parameter}.
+
+Because neurons adjust timings of their spikes to the ticking of the
+\href{Hippocampus}{hippocampal} clock, episodic memories can unfold in a
+\emph{meaningful} temporal succession, instead of being jumbled
+together.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Phase Precession}\label{phase-precession}
+
+We have already talked about how a \textbf{path} through an environment
+can be represented sequence of
+\href{Place\%20cells:\%20How\%20your\%20brain\%20creates\%20maps\%20of\%20abstract\%20spaces}{place
+cell} activations(the specialized neurons that encode physical location
+and subsequent behavior).
+
+Each of those cells has a preffered patch of ground, called the
+\textbf{place field}, where if fires most actively.
+
+When the animal enters the place field, reaches center, and leaves it,
+the \textbf{firing rate}(see
+\href{1.2\%20-\%20Spike\%20Trains\%20and\%20Firing\%20Rates}{textbook})
+of that neuron would gradually increase. In reaches its maximum value at
+the \textbf{center} of the place field, and then gradually decreases.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-09 at 4.26.15 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-09 at 4.26.15 PM.png}}
+\caption{Screenshot 2025-04-09 at 4.26.15 PM.png}
+\end{figure}
+
+This phenomenon is what we like to call \textbf{Rate Coding}, where the
+information about the position is directly encoded in whatever neuron is
+currently spiking, and the \textbf{firing rate} of said neuron.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-09 at 4.28.20 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-09 at 4.28.20 PM.png}}
+\caption{Screenshot 2025-04-09 at 4.28.20 PM.png}
+\end{figure}
+
+However, it turns out that the phase of \textbf{Theta Rhythm} at which
+these neurons spike also plays a role in the information transfer. This
+is known as \textbf{phase coding}.
+
+More specifically, if one was to record the activity of individual
+neurons in addition to the surrounding Theta Rhythm, you would notice
+some very bizarre behavior. As the neuron moves through the place field
+of a neuron, its spikes would occur at early and earlier phases of
+Theta.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-09 at 4.31.48 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-09 at 4.31.48 PM.png}}
+\caption{Screenshot 2025-04-09 at 4.31.48 PM.png}
+\end{figure}
+
+It gets even more interesting when you consider this \textbf{Phase.
+Precession} when accounting for multiple neurons. If you look at how
+multiple place cells \textbf{spike} relative to each other, you will see
+that the \textbf{order of spikes} within one \textbf{Theta Cycle}(The
+time window between two peaks) \textbf{Recapitulates} the exact order of
+place fields on the portion of the trajectory.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-09 at 4.36.17 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-09 at 4.36.17 PM.png}}
+\caption{Screenshot 2025-04-09 at 4.36.17 PM.png}
+\end{figure}
+
+Looking at this visualization, you will notice that there the most
+overlap at the exact center of the ``red'' spike firing rate. This peak
+firing rate is observed at the \textbf{trough}(valley) of the Theta
+wave, at around the \(180^{\circ}\) mark.
+
+The ``recent past'' place cells of yellow is gradually shifted to the
+left as time passes, and you will notice at the end it is roughly at the
+\(0^{\circ}\) mark of the Theta Wave.
+
+Subsequently, the place cells that are just at the beginning of their
+firing arc represent the \textbf{near future} neuronal spikes at the
+\(360^{\circ}\) mark.
+
+\begin{figure}
+\centering
+\pandocbounded{\includegraphics[keepaspectratio,alt={Screenshot 2025-04-09 at 4.58.28 PM.png}]{/Users/gassandrid/Desktop/Screenshot 2025-04-09 at 4.58.28 PM.png}}
+\caption{Screenshot 2025-04-09 at 4.58.28 PM.png}
+\end{figure}
+
+This way, every cycle of \textbf{Theta} bears some sort of information
+about the past, present, and future, in proper order. As the animal
+moves and Theta Rhythm progresses, the representations would shift
+accordingly along the wave to maintain this ``time-phase'' relationship.
+
+It is a very interesting little system of temporal organization which
+sorts segments of experiences.
+
+It is believed that these are pieces of a much bigger puzzle, which are
+referred to as ``Theta Sequences''. These sequences are likely stitched
+together to encode for a full memory system.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Conclusion/Summary}\label{conclusionsummary}
+
+To summarize, the \textbf{Theta Rhythm} is a very interesting phenomenon
+that is observed in the \url{Hippocampus}. It is a brain wave that
+operates at a frequency of around 4-8 Hz, and it is associated with
+memory formation and retrieval.
+
+Integrated Representation of the external world is achieved by the
+\textbf{Theta Rhythm}, which serves as a \textbf{global timing
+mechanism} for the \url{Hippocampus}. It helps to link different
+modalities of information together, and to organize them into a
+meaningful temporal sequence.
+
+And, to top it all off, this \textbf{Theta Wave} is also responsible for
+the \textbf{Phase Precession} of *\emph{Place Cells}, which allows the
+brain to encode information about the past, present, and future in a
+meaningful way.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\end{document}
